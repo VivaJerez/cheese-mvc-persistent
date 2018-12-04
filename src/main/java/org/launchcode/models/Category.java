@@ -16,6 +16,9 @@ public class Category {
     @Size(min=3, max=15)
     private String name;
 
+    public Category() {
+    }
+
     public Category(String name) {
         this.name = name;
     }
